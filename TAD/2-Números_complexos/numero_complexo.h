@@ -1,10 +1,3 @@
-
-struct numero_complexo
-{
-    double real;
-    double imaginario;
-};
-
 typedef struct numero_complexo Numero_complexo;
 
 Numero_complexo* cria_numero_complexo(double real, double imaginario);

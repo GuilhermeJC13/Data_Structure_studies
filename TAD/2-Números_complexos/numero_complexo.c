@@ -3,6 +3,12 @@
 #include <math.h>
 #include "numero_complexo.h"
 
+struct numero_complexo
+{
+    double real;
+    double imaginario;
+};
+
 Numero_complexo* cria_numero_complexo(double real, double imaginario){
 
     Numero_complexo* numero_complexo = (Numero_complexo*) malloc(sizeof(Numero_complexo));
